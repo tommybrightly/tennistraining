@@ -1,0 +1,7 @@
+{
+  "name": "trainerfromscratch",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

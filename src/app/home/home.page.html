@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title> Welcome to Tennis Trainer </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content class="auth-form">
+  <ion-grid>
+    <ion-row>
+      <ion-col class="ion-align-self-center">
+        <ion-button
+          [routerLink]="['/registration']"
+          expand="block"
+          color="primary"
+          >Register</ion-button
+        >
+        <br>
+        <!-- <span class="divider line one-line">or</span> -->
+        <div class="ion-text-center">or</div>
+        <br>
+        <!-- <span class="already">Already a user?</span> -->
+        <div class="ion-text-center">Already a user?</div>
+        <br>
+        <ion-button [routerLink]="['/login']" expand="block" color="danger"
+          >Sign In</ion-button
+        >
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
